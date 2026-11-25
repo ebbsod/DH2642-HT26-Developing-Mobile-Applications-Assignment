@@ -1,0 +1,35 @@
+/* A debug class, used to separate components graphically during development */
+.debug {
+    border-style:solid;
+    padding: 10px;
+    border-width: 0.1em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.alignRight {
+    text-align:right;
+}
+
+.hyperLink {
+    color: blue;
+    text-decoration: underline; 
+
+}
+
+
+@media (min-width: 500px) {
+    .flexParent {
+        display: flex;
+        min-height: 100vh;
+    }
+}
+
+.sidebar {
+    flex: 0 0 350px;
+    overflow: auto;
+}
+
+.mainContent {
+    flex: 1;
+}
